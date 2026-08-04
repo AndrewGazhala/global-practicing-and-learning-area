@@ -1,2 +1,2 @@
 # global-practicing-and-learning-area
-Sendbox for git
+Global sandbox for practicing and learning
