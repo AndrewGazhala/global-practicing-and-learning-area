@@ -1,0 +1,20 @@
+{
+  "name": "global-practicing-and-learning-area",
+  "version": "1.0.0",
+  "description": "Global sandbox for practicing and learning",
+  "homepage": "https://github.com/AndrewGazhala/global-practicing-and-learning-area#readme",
+  "bugs": {
+    "url": "https://github.com/AndrewGazhala/global-practicing-and-learning-area/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewGazhala/global-practicing-and-learning-area.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
