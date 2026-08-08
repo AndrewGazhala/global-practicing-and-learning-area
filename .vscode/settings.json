@@ -7,7 +7,7 @@
   "editor.suggestOnTriggerCharacters": true,
   "editor.inlineSuggest.enabled": true,
   "editor.parameterHints.enabled": true,
-  "editor.wordBasedSuggestions": true,
+  "editor.wordBasedSuggestions": "matchingDocuments",
   "editor.acceptSuggestionOnEnter": "on",
   "editor.suggestSelection": "first",
   "typescript.suggest.enabled": true,
