@@ -1,6 +1,14 @@
 {
-    "compilerOptions": {
-        "module": "es2020",
-        "rewriteRelativeImportExtensions": true
-    }
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "strict": true,
+    "moduleResolution": "bundler",
+    "rewriteRelativeImportExtensions": true,
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["./**/*.test.ts", "./node_modules"]
 }
