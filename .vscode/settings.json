@@ -11,5 +11,17 @@
   "editor.acceptSuggestionOnEnter": "on",
   "editor.suggestSelection": "first",
   "typescript.suggest.enabled": true,
-  "javascript.suggest.enabled": true
+  "javascript.suggest.enabled": true,
+  "typescript.validate.enable": true,
+  "javascript.validate.enable": true,
+  "typescript.tsdk": "typescript/node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.renderValidationDecorations": "on",
+  "problems.visibility": true,
+  "[typescript]": {
+    "editor.hover.enabled": true
+  },
+  "[javascript]": {
+    "editor.hover.enabled": true
+  }
 }
