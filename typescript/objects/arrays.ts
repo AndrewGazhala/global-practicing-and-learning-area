@@ -1,0 +1,1 @@
+/* All about arrays. Arrays are a collection of values. */
