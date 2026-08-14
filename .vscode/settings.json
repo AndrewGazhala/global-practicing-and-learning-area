@@ -23,5 +23,6 @@
   },
   "[javascript]": {
     "editor.hover.enabled": "true"
-  }
+  },
+  "accessibility.soundEffects": false
 }
