@@ -19,9 +19,9 @@
   "editor.renderValidationDecorations": "on",
   "problems.visibility": true,
   "[typescript]": {
-    "editor.hover.enabled": "on"
+    "editor.hover.enabled": "true"
   },
   "[javascript]": {
-    "editor.hover.enabled": "on"
+    "editor.hover.enabled": "true"
   }
 }
