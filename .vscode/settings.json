@@ -24,5 +24,7 @@
   "[javascript]": {
     "editor.hover.enabled": "true"
   },
-  "accessibility.soundEffects": false
+  "accessibility.soundEffects": false,
+  "notificationCenterNotification.soundEffect": false,
+  "terminal.integrated.shellIntegration.suggestEnabled": false
 }
