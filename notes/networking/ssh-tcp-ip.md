@@ -53,38 +53,6 @@ VS Code’s built-in Markdown preview does not render Mermaid; this ASCII diagra
    Link layer
 ```
 
-### Data path (simplified)
-
-Client → server flow (each layer wraps the layer above):
-
-```
-  Client                                              Server
-  ──────                                              ──────
-
-  ┌──────────────┐                              ┌──────────────┐
-  │  SSH client  │  encrypted payload           │  SSH server  │
-  │  (shell,     │ ───────────────────────────► │  (decrypt,   │
-  │   sftp, …)   │                              │   execute)   │
-  └──────┬───────┘                              └──────▲───────┘
-         │                                             │
-         ▼                                             │
-  ┌──────────────┐                              ┌──────┴───────┐
-  │     TCP      │  segments, port 22           │     TCP      │
-  └──────┬───────┘ ───────────────────────────► └──────────────┘
-         │
-         ▼
-  ┌──────────────┐
-  │      IP      │  src/dst addresses, routing
-  └──────┬───────┘
-         │
-         ▼
-  ┌──────────────┐
-  │    Link      │  frames on the wire (Ethernet, Wi‑Fi, …)
-  └──────────────┘
-```
-
-Each layer adds its own header; the receiver strips headers bottom-up (Link → IP → TCP → SSH).
-
 ## How an SSH session works
 
 1. **TCP handshake** — Client opens a TCP connection to the server (usually port 22).
